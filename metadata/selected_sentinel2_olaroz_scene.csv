@@ -1,2 +1,0 @@
-item_id,datetime,platform,constellation,mgrs_tile,eo_cloud_cover,processing_baseline,collection,date_range_filter,cloud_filter
-S2B_MSIL2A_20250827T142719_R053_T19KGQ_20250827T180708,2025-08-27T14:27:19.024000Z,Sentinel-2B,Sentinel 2,19KGQ,0.034071,05.11,sentinel-2-l2a,2025-06-01/2025-09-30,20
