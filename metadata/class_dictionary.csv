@@ -1,6 +1,5 @@
 class_id,class_name,macro_class,description
-1,salina,sal,Superficie salina clara o costra salina homogénea
-2,suelo_desnudo,suelo,Suelos desnudos bordes aluviales sedimentos o roca expuesta
-3,agua_humedad,humedad_agua,Agua superficial zonas húmedas o salmuera visible
-4,vegetacion,vegetacion,Vegetación periférica vegas o bofedales
-5,infraestructura,infraestructura,Piletas caminos instalaciones o estructuras antrópicas
+1,salina,sal,Superficie salina clara o costra salina homogenea
+2,suelo_desnudo,sin_vegetacion,"Suelos desnudos, bordes aluviales, sedimentos, laderas secas o roca expuesta"
+3,agua_humedad,humedad_agua,"Agua superficial, salmuera, piletas humedas o zonas oscuras saturadas"
+4,suelo_rocoso,sin_vegetacion,"Superficie rugosa, roca expuesta o laderas rocosas"

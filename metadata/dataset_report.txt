@@ -1,0 +1,51 @@
+REPORTE DEL DATASET - SALAR DE OLAROZ
+=====================================
+
+Clases utilizadas:
+1 - salina
+2 - suelo_desnudo
+3 - agua_humedad
+4 - suelo_rocoso
+
+Bandas utilizadas:
+B04, B03, B02, B05, B06, B07, B08, B8A, B11, B12
+
+Índices calculados:
+NDVI, NDWI, MNDWI, NDBI_like, SWIR_ratio, NIR_SWIR_ratio, RED_SWIR_ratio, GREEN_SWIR_ratio, BLUE_RED_ratio
+
+Dataset features:
+(13878, 31)
+class_name
+agua_humedad     6717
+suelo_rocoso     4432
+suelo_desnudo    2729
+Name: count, dtype: int64
+
+Dataset limpio:
+(13878, 31)
+class_name
+agua_humedad     6717
+suelo_rocoso     4432
+suelo_desnudo    2729
+Name: count, dtype: int64
+
+Dataset balanceado:
+(8025, 31)
+class_name
+agua_humedad     2675
+suelo_desnudo    2675
+suelo_rocoso     2675
+Name: count, dtype: int64
+
+Distribución por clase y split - dataset balanceado:
+class_name     split     
+agua_humedad   test           140
+               train         2346
+               validation     189
+suelo_desnudo  test           140
+               train         2346
+               validation     189
+suelo_rocoso   test           140
+               train         2346
+               validation     189
+dtype: int64
