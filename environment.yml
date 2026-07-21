@@ -1,0 +1,37 @@
+name: m10-salares
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Lenguaje y entorno interactivo
+  - python=3.12
+  - pip>=24
+  - jupyterlab>=4,<5
+  - notebook>=7,<8
+  - ipykernel>=6,<7
+  - ipywidgets>=8,<9
+  - nbformat>=5.10,<6
+  - nbconvert>=7.16,<8
+
+  # Análisis y manipulación de datos tabulados
+  - numpy>=2.0,<3
+  - pandas>=2.2,<3.1
+  - scipy>=1.13,<2
+  - statsmodels>=0.14,<0.15
+  - pyarrow>=17,<24
+  - openpyxl>=3.1,<4
+  - tabulate>=0.9,<1
+  - tqdm>=4.66,<5
+
+  # Visualización
+  - matplotlib>=3.9,<4
+  - seaborn>=0.13,<0.14
+  - plotly>=5.24,<7
+  - missingno>=0.5,<0.6
+
+  # Aprendizaje automático
+  - scikit-learn>=1.6,<2
+  - imbalanced-learn>=0.13,<0.15
+  - joblib>=1.4,<2
