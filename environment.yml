@@ -1,4 +1,4 @@
-name: m10-salares
+name: m10mentoria
 
 channels:
   - conda-forge
