@@ -1,0 +1,49 @@
+{
+    "dataset": "dataset_salares_ml",
+    "salares": [
+        "hombre_muerto",
+        "olaroz"
+    ],
+    "classes": [
+        "agua_humedad",
+        "salina",
+        "suelo_desnudo",
+        "suelo_rocoso"
+    ],
+    "n_samples": 38621,
+    "n_polygons": 48,
+    "n_features": 25,
+    "features": [
+        "spec_B04",
+        "spec_B03",
+        "spec_B02",
+        "spec_B05",
+        "spec_B06",
+        "spec_B07",
+        "spec_B08",
+        "spec_B8A",
+        "spec_B11",
+        "spec_B12",
+        "feat_B04",
+        "feat_B03",
+        "feat_B02",
+        "feat_B05",
+        "feat_B06",
+        "feat_B07",
+        "feat_B08",
+        "feat_B8A",
+        "feat_B11",
+        "feat_B12",
+        "feat_NDVI",
+        "feat_NDWI",
+        "feat_MNDWI",
+        "feat_NDMI",
+        "feat_BSI"
+    ],
+    "max_pixels_per_polygon": 1000,
+    "min_valid_fraction": 0.7,
+    "crs_training_polygons": "EPSG:32719",
+    "random_state": 42,
+    "sampling_strategy": "maximum N valid pixels randomly sampled per polygon",
+    "split_recommendation": "Use polygon_id as group to avoid spatial leakage."
+}

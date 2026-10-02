@@ -1,0 +1,41 @@
+{
+    "DM1_fisico_completo": {
+        "KMeans": {
+            "k": 3
+        },
+        "DBSCAN": {
+            "eps": 0.5592591135871606,
+            "min_samples": 20
+        },
+        "HDBSCAN": {
+            "min_cluster_size": 500,
+            "min_samples": 20
+        }
+    },
+    "DM2_indices_compacto": {
+        "KMeans": {
+            "k": 3
+        },
+        "DBSCAN": {
+            "eps": 0.2148009149484585,
+            "min_samples": 20
+        },
+        "HDBSCAN": {
+            "min_cluster_size": 250,
+            "min_samples": 20
+        }
+    },
+    "DM3_contexto_espacial": {
+        "KMeans": {
+            "k": 3
+        },
+        "DBSCAN": {
+            "eps": 1.3906159173357682,
+            "min_samples": 20
+        },
+        "HDBSCAN": {
+            "min_cluster_size": 100,
+            "min_samples": 20
+        }
+    }
+}
