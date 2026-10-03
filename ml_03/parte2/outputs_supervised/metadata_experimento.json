@@ -1,0 +1,31 @@
+{
+    "random_state": 42,
+    "global_cv": {
+        "type": "StratifiedGroupKFold",
+        "n_splits": 10,
+        "group": "polygon_id",
+        "target": "clase"
+    },
+    "transfer_cv": {
+        "type": "StratifiedGroupKFold",
+        "n_splits": 5,
+        "group": "polygon_id"
+    },
+    "models": [
+        "SVM",
+        "RandomForest",
+        "MLP"
+    ],
+    "primary_metric": "f1_macro",
+    "low_ram_mode": true,
+    "max_samples_per_polygon": 1000,
+    "domain_transfer": [
+        "hombre_muerto -> olaroz",
+        "olaroz -> hombre_muerto"
+    ],
+    "rules": {
+        "polygon_id_never_split": true,
+        "salar_used_as_predictor": false,
+        "target_domain_used_in_grid_search": false
+    }
+}
